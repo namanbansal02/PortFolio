@@ -1,0 +1,85 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #007bff; /* Primary blue color */
+  padding: 20px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: #343a40; /* Dark background for navigation */
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ffc107; /* Yellow color on hover */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #007bff; /* Primary blue color for section headings */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+aside {
+  background-color: #fff;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #343a40; /* Dark background for footer */
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
